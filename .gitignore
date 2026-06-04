@@ -3,6 +3,10 @@ chrome_data/
 chrome_data_2/
 diagnostico/
 
+# Archivos de sesión y cookies
+cookies.json
+
 # Ignorar archivos temporales de Python
 __pycache__/
 *.pyc
+*.png
