@@ -1,0 +1,8 @@
+# Ignorar carpetas de datos de Chrome
+chrome_data/
+chrome_data_2/
+diagnostico/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc

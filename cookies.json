@@ -1,0 +1,278 @@
+[
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811972009,
+        "httpOnly": false,
+        "name": "HasLoggedInBefore",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "true"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1815149209,
+        "httpOnly": false,
+        "name": "_ga_1FLYTGXM8V",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GS2.1.s1780588909$o25$g1$t1780589209$j60$l0$h0"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811908140,
+        "httpOnly": false,
+        "name": "CultureCode",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "es-ES"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814994656,
+        "httpOnly": false,
+        "name": "isFromGdprOptInCountry",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "false"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1780590409,
+        "httpOnly": false,
+        "name": "WZRK_S_8R9-8WK-KK7Z",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%7B%22p%22%3A4%7D"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "expiry": 1812125212,
+        "httpOnly": false,
+        "name": "session",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "%7B%22userId%22%3A742615332%2C%22name%22%3A%22NachoElVicho%22%2C%22leagueId%22%3A0%2C%22teamId%22%3A0%2C%22leagueTypeId%22%3A0%2C%22leagueTypeName%22%3A%22%22%2C%22teamName%22%3A%22%22%2C%22slotIndex%22%3A1%2C%22serverDownForCurrentSlotIndex%22%3Afalse%2C%22hasMultipleSlots%22%3Atrue%2C%22hasInvites%22%3Afalse%2C%22hasBossCoinWallet%22%3Atrue%2C%22appThemeBackgroundUrl%22%3A%22https%3A%2F%2Fassets.onlinesoccermanager.com%2FBackground%2FNormal%2FTheme_35.png%3Fv%3D1763975769%22%2C%22isReservedForFantasyLeague%22%3Afalse%2C%22leagueTheme%22%3A0%2C%22appTheme%22%3A0%2C%22leagueMode%22%3A0%7D"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1812125209,
+        "httpOnly": false,
+        "name": "WZRK_G",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "_w_742615332"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814274409,
+        "httpOnly": false,
+        "name": "cto_bundle",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "RQo8NV9IWDRMQ0xzS010dE1NVmN5YVUlMkJKeDZYTnB1SEhlNEVoJTJGWUU4azA0QVdjR1pFVTFEOHIyanZpOGNrRlJ4UmM3bFNXY0Y3cmhtQnEyNWxneEFrOVl5TXRWZWRwTXJ6TGxQeHZPd2VYUDJVaTlPUUgySVhtdWRhbUVDb0cwdmJZU21TUnRxOTc0ZktuRUdTNjlpbUl0QWdIY1FXOXJBcm1sb3YlMkJlQm9uRWZoSWclM0Q"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "expiry": 1812125208,
+        "httpOnly": false,
+        "name": "_dd_s",
+        "path": "/",
+        "sameSite": "Strict",
+        "secure": false,
+        "value": "aid=2906e1ab-e556-45d4-af0d-1ec026713cef&logs=0&expire=1780590108985"
+    },
+    {
+        "domain": ".es.onlinesoccermanager.com",
+        "expiry": 1812124912,
+        "httpOnly": false,
+        "name": "refresh_token",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJPU00uQXV0aGVudGljYXRpb24iLCJleHAiOjE3ODEwNDA4NDksIm5iZiI6MTc4MDQzNjA0MiwiaWQiOjk3MDk0MTA0NywidG9rZW4iOiI5NTNhOWM5MS00ZmMxLTRiYTEtOTI5ZS0wYjM4MTY3NGI2NjEiLCJpYXQiOjE3ODA0MzYwNDl9.SicQLPr45DCe761PJA7R7Z47awWOy0olsdzmO3Xlidg"
+    },
+    {
+        "domain": ".es.onlinesoccermanager.com",
+        "expiry": 1811972017,
+        "httpOnly": false,
+        "name": "session",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "%7B%22userId%22%3A742615332%2C%22name%22%3A%22NachoElVicho%22%2C%22leagueId%22%3A0%2C%22teamId%22%3A0%2C%22leagueTypeId%22%3A0%2C%22leagueTypeName%22%3A%22%22%2C%22teamName%22%3A%22%22%2C%22slotIndex%22%3A1%2C%22serverDownForCurrentSlotIndex%22%3Afalse%2C%22hasMultipleSlots%22%3Atrue%2C%22hasInvites%22%3Afalse%2C%22hasBossCoinWallet%22%3Atrue%2C%22appThemeBackgroundUrl%22%3A%22https%3A%2F%2Fassets.onlinesoccermanager.com%2FBackground%2FNormal%2FTheme_35.png%3Fv%3D1763975769%22%2C%22isReservedForFantasyLeague%22%3Afalse%2C%22leagueTheme%22%3A0%2C%22appTheme%22%3A0%2C%22leagueMode%22%3A0%7D"
+    },
+    {
+        "domain": ".es.onlinesoccermanager.com",
+        "expiry": 1812124912,
+        "httpOnly": false,
+        "name": "access_token",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJPU00uQXV0aGVudGljYXRpb24iLCJleHAiOjE3ODA0MzcyNDksIm5iZiI6MTc4MDQzNjA0OSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiI3NDI2MTUzMzIiLCJzdWIiOjc0MjYxNTMzMiwid29ybGQiOjEsInRlYW0iOiIxNDExNjUwNDYsMjMiLCJpYXQiOjE3ODA0MzYwNDl9.e6GliOqpbmG4Nj8bU57Hin48JES7asannaqasZ0Uwtc"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814068176,
+        "httpOnly": false,
+        "name": "__gpi",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "UID=0000145dba46c6a5:T=1780372176:RT=1780588955:S=ALNI_MYQ8LQMlcqZ4VpFtDt8E6ZrZCIA2A"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1812125212,
+        "httpOnly": false,
+        "name": "FCNEC",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%5B%5B%22AKsRol8OJ95J6VmCiByoTDkFbBTVZe15iL9sWO0YrTUNNC1iuH3Gp-4Iis1Dgx0SaYNfwqele25ZP7A_aXIkagzzcxtYBJrIZ_329iClU7d0xjeW1BLcn9qHQnkQ79y1QR2weEQ3bqKHV3tgSjmXiSyH4Wn7W3ARwA%3D%3D%22%5D%5D"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "httpOnly": false,
+        "name": "createLeagueMode",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "0"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811970657,
+        "httpOnly": false,
+        "name": "isPrivacyNoticeAccepted",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "true"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814274409,
+        "httpOnly": false,
+        "name": "cto_bidid",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "EYVmcF91TjVrMnZQeXhSV1k3bzBhS3FHbUxxNDFlNUtBYVBDaUw0OTZVZ2VkdDBlUWRJc3pFdjBUTjRFU2x0MjNWUnhqSGJjVEVRZXRKQ21rMVN3aiUyRjJKbDVLaUNXR3VSdVFacmxkRUZqJTJGZGJVdGc2YkZEWjg2WXRWWFpPcHk3QlZPTkI"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "httpOnly": false,
+        "name": "forum_token",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik5hY2hvRWxWaWNobyIsImlkIjoiNzQyNjE1MzMyIiwiYXZhdGFyVXJsIjoiaHR0cHM6Ly9hc3NldHMub25saW5lc29jY2VybWFuYWdlci5jb20vQXZhdGFycy9Vc2Vycy8yMi5qcGciLCJsYW5ndWFnZWNvZGUiOiJlcyIsIm5iZiI6MTc4MDU4OTI1MCwiZXhwIjoxNzgxMTk0MDUwLCJpYXQiOjE3ODA1ODkyNTB9.o7TrmHm3-le1kLW0gdWioiSYsveRjeIf-dEgbeKz-tw"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "expiry": 1811975990,
+        "httpOnly": false,
+        "name": "DefaultCultureCode",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "es-ES"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1815149209,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "GA1.1.23347021.1780440007"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811976033,
+        "httpOnly": false,
+        "name": "_sharedid",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "973c0f0e-4d22-4ae4-aaaa-986de13e3e74"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811909610,
+        "httpOnly": false,
+        "name": "inventoryViewedLastTimestamp",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": true,
+        "value": "1780373581"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "httpOnly": false,
+        "name": "access_token",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJPU00uQXV0aGVudGljYXRpb24iLCJleHAiOjE3ODA1OTA0NDksIm5iZiI6MTc4MDU4OTI0OSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZWlkZW50aWZpZXIiOiI3NDI2MTUzMzIiLCJzdWIiOjc0MjYxNTMzMiwid29ybGQiOjEsInRlYW0iOiIxNDExNjUwNDYsMjMiLCJpYXQiOjE3ODA1ODkyNDl9.9ncZOOb91JCUjaV_WGxFNlU59bwNRz3CaMQUc06IWAQ"
+    },
+    {
+        "domain": "es.onlinesoccermanager.com",
+        "httpOnly": false,
+        "name": "refresh_token",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJPU00uQXV0aGVudGljYXRpb24iLCJleHAiOjE3ODExOTQwNDksIm5iZiI6MTc4MDQzNjA0MiwiaWQiOjk3MDk0MTA0NywidG9rZW4iOiI5NTNhOWM5MS00ZmMxLTRiYTEtOTI5ZS0wYjM4MTY3NGI2NjEiLCJpYXQiOjE3ODA1ODkyNDl9.zN2N8HbeRKVKZEcBAd-p8NlnPpW60lgzreqSeDrt1B4"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1795924176,
+        "httpOnly": false,
+        "name": "__eoi",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "ID=6bb38d089c5a4b11:T=1780372176:RT=1780588955:S=AA-AfjZbO6csrub-S9xLFJymuoVp"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814068176,
+        "httpOnly": false,
+        "name": "__gads",
+        "path": "/",
+        "sameSite": "None",
+        "secure": true,
+        "value": "ID=884174b5fbe698df:T=1780372176:RT=1780588955:S=ALNI_MbafoJyMgZ_RGAFVk-9f2O_bziLIQ"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1814285211,
+        "httpOnly": false,
+        "name": "FCCDCF",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%22b5005a5f-4dec-4e4e-9655-8a9734f92408%5C%22%2C%5B1780440008%2C354000000%5D%5D%22%5D%5D%5D"
+    },
+    {
+        "domain": ".onlinesoccermanager.com",
+        "expiry": 1811976033,
+        "httpOnly": false,
+        "name": "_sharedid_cst",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": false,
+        "value": "znv0HA%3D%3D"
+    }
+]

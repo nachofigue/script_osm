@@ -1,0 +1,31 @@
+name: OSM Bot Automático
+
+on:
+  schedule:
+    # Se ejecuta en el minuto 10 cada 2 horas
+    - cron: '10 */2 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v4
+
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Instalar dependencias
+      run: pip install -r requirements.txt
+
+    - name: Configurar Chrome y ChromeDriver
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: stable
+
+    - name: Ejecutar el bot de OSM
+      run: python github_bot.py
