@@ -41,6 +41,7 @@ def wait_for_video_to_finish(driver, timeout=45):
     return False
 
 def reclamar_anuncios(perfil="chrome_data"):
+    wait_minutes = 70
     clean_up_chrome()
     
     options = Options()
@@ -113,7 +114,7 @@ def reclamar_anuncios(perfil="chrome_data"):
     except Exception as e:
         print("No se pudo abrir la Tienda:", e)
         driver.quit()
-        return
+        return wait_minutes
     
     # 4. Bucle de anuncios
     max_ads = 10
@@ -152,6 +153,16 @@ def reclamar_anuncios(perfil="chrome_data"):
         popups = driver.find_elements(By.XPATH, "//*[contains(text(), 'No se puede mostrar') or contains(text(), 'máximo de vídeos')]")
         if len(popups) > 0:
             print("Limite alcanzado. Cerrando aviso...")
+            popup_text = popups[0].text
+            body_text = driver.find_element(By.TAG_NAME, "body").text
+            import re
+            match = re.search(r'(\d+)\s*minutos', body_text)
+            if match:
+                detected_mins = int(match.group(1))
+                wait_minutes = detected_mins + 1
+                print(f"Detectado tiempo de espera en el popup: {detected_mins} minutos. Se esperaran {wait_minutes} minutos.")
+            else:
+                print("No se detecto el numero de minutos en el aviso. Se usara el tiempo por defecto.")
             try:
                 ok_btn = driver.find_element(By.XPATH, "//*[text()='Ok' or text()='OK']")
                 driver.execute_script("arguments[0].click();", ok_btn)
@@ -211,30 +222,31 @@ def reclamar_anuncios(perfil="chrome_data"):
     
     print(f"\nProceso terminado. Anuncios reclamados con exito: {ads_watched}")
     driver.quit()
+    return wait_minutes
 
 # --- BLOQUE PRINCIPAL MODIFICADO ---
 if __name__ == "__main__":
-    MINUTOS_ESPERA = 70
-    SEGUNDOS_ESPERA = MINUTOS_ESPERA * 60  # 70 minutos transformados a segundos (4200 seg)
-
     print("=== Iniciando Bot de Reclamación Automática ===")
     
     cuentas = ["chrome_data_2"]
     while True:
+        minutos_espera = 70
         try:
             print(f"\n[+] Iniciando ciclo de reclamación: {time.strftime('%H:%M:%S')}")
             for cuenta in cuentas:
                 print(f"\n=====================================")
                 print(f"  Procesando cuenta: {cuenta}")
                 print(f"=====================================")
-                reclamar_anuncios(cuenta)
+                tiempo_obtenido = reclamar_anuncios(cuenta)
+                if tiempo_obtenido:
+                    minutos_espera = tiempo_obtenido
         except Exception as e:
             print(f" Ocurrió un error inesperado en el ciclo principal: {e}")
             print("Se reintentará en el próximo turno.")
         
-        print(f"\n[-] Ciclo finalizado. Esperando {MINUTOS_ESPERA} minutos para el siguiente...")
+        print(f"\n[-] Ciclo finalizado. Esperando {minutos_espera} minutos para el siguiente...")
         
         # Un pequeño bucle visual para saber cuánto tiempo le queda en la consola
-        for restante in range(MINUTOS_ESPERA, 0, -1):
+        for restante in range(minutos_espera, 0, -1):
             print(f"Próxima ejecución en: {restante} minutos...", end="\r")
             time.sleep(60) # Espera 1 minuto antes de restar el siguiente contador
